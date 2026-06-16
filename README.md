@@ -113,13 +113,11 @@ ProyectoPersonal-GaleriaEspacio/
 
 ## 🖼️ Capturas de pantalla
 
-> Agregá aquí 2–3 capturas de la app corriendo (`npm run dev`).
-> Guardalas en una carpeta `capturas/` y enlazalas, por ejemplo:
-
 ```
 ![Vista principal](capturas/01-galeria.png)
 ![Lightbox con ficha](capturas/02-lightbox.png)
 ![Filtro visual aplicado](capturas/03-filtro.png)
+![Verificacion de Responsive](capturas/04-Responsive.png)
 ```
 
 ---

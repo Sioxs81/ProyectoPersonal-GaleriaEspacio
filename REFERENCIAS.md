@@ -79,7 +79,6 @@ B. *Coro de ondas de radio en la atmósfera terrestre* — NASA. Dominio públic
 Para este proyecto se utilizó el asistente de IA **Claude (Anthropic)** como apoyo en:
 
 - la planificación de la arquitectura del proyecto (estructura de componentes y estado);
-- la búsqueda y verificación de recursos multimedia de dominio público (NASA/ESA en Wikimedia Commons);
 - la generación inicial del código de los componentes Vue 3, los estilos CSS y esta documentación.
 
 Todo el código fue **revisado y comprendido** por el autor, quien puede explicar y defender su funcionamiento (estado reactivo con `ref`, propiedades `computed`, `props`/`emits`, ciclo de vida con `onMounted`/`onUnmounted`, carga de datos con `fetch`, filtros CSS y manejo del elemento `<audio>` mediante una referencia al DOM). Se realizaron ajustes propios sobre la propuesta inicial.
