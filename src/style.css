@@ -1,0 +1,82 @@
+/* =========================================================
+   Galeria del Cosmos — estilos globales
+   Tema: "lamina de atlas astronomico". Fondo indigo profundo
+   (no negro puro), acentos de luz estelar (ambar calido + cian frio),
+   titulares serif y datos en monoespaciada como en una ficha de catalogo.
+   ========================================================= */
+
+:root {
+  /* Paleta base */
+  --bg: #090d22;          /* indigo de medianoche */
+  --bg-2: #0c1230;        /* variacion para degradados */
+  --panel: #121a3c;       /* paneles / tarjetas */
+  --panel-2: #1a2350;     /* hover de paneles */
+  --line: #2a3566;        /* lineas y bordes sutiles */
+  --ink: #eef0fb;         /* texto principal */
+  --muted: #9aa3cf;       /* texto secundario / pies */
+  --amber: #f4c77b;       /* acento calido (luz estelar) */
+  --cyan: #6fe3d9;        /* acento frio (interaccion) */
+
+  /* Color por categoria (catalogo por colores) */
+  --cat-planetas: #f4c77b;
+  --cat-galaxias: #b3a4ff;
+  --cat-nebulosas: #f4a6c4;
+  --cat-misiones: #6fe3d9;
+
+  /* Tipografias */
+  --serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, 'Courier New', monospace;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #app { height: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  color: var(--ink);
+  background-color: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/* Nebulosas suaves de fondo (capa fija, detras incluso del campo de estrellas) */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(ellipse 60% 50% at 12% 6%, rgba(111, 227, 217, 0.12), transparent 60%),
+    radial-gradient(ellipse 55% 50% at 88% 94%, rgba(150, 120, 255, 0.16), transparent 60%),
+    radial-gradient(ellipse 50% 40% at 70% 30%, rgba(244, 166, 196, 0.08), transparent 60%),
+    var(--bg);
+}
+
+h1, h2, h3 { font-family: var(--serif); font-weight: 600; margin: 0; }
+
+a { color: var(--cyan); }
+
+/* Etiqueta tipo "eyebrow" en monoespaciada, para datos de catalogo */
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Accesibilidad: respetar a quienes reducen el movimiento */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+/* Foco visible para navegacion por teclado */
+:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
