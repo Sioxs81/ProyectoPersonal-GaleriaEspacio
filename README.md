@@ -113,12 +113,18 @@ ProyectoPersonal-GaleriaEspacio/
 
 ## 🖼️ Capturas de pantalla
 
-```
-![Vista principal](capturas/01-galeria.png)
-![Lightbox con ficha](capturas/02-lightbox.png)
-![Filtro visual aplicado](capturas/03-filtro.png)
+### Vista principal
+![Vista principal de la galería](capturas/01-galeria.png)
+
+### Visor (lightbox) con la ficha del objeto
+![Lightbox con metadata](capturas/02-lightbox.png)
+
+### Filtro visual aplicado
+![Filtro en escala de grises](capturas/03-filtro.png)
+
+### Verificacion de Responsive
 ![Verificacion de Responsive](capturas/04-Responsive.png)
-```
+
 
 ---
 
