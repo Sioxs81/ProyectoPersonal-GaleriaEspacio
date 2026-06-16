@@ -1,0 +1,154 @@
+{
+  "fotos": [
+    {
+      "id": 1,
+      "nombre": "La Tierra (Blue Marble)",
+      "categoria": "Planetas",
+      "catalogo": "AS17-148-22727",
+      "fuente": "Apollo 17 · NASA",
+      "descripcion": "Retrato completo de la Tierra captado por la tripulacion del Apollo 17 en 1972, una de las fotografias mas reproducidas de la historia.",
+      "archivo": "The_Blue_Marble.jpg",
+      "credito": "NASA",
+      "licencia": "Dominio publico (NASA)"
+    },
+    {
+      "id": 2,
+      "nombre": "Jupiter",
+      "categoria": "Planetas",
+      "catalogo": "PIA / Cassini",
+      "fuente": "Cassini · NASA/JPL",
+      "descripcion": "Mosaico en color del planeta mas grande del sistema solar y su Gran Mancha Roja, tomado por la sonda Cassini de camino a Saturno.",
+      "archivo": "Jupiter_by_Cassini-Huygens.jpg",
+      "credito": "NASA / JPL / University of Arizona",
+      "licencia": "Dominio publico (NASA)"
+    },
+    {
+      "id": 3,
+      "nombre": "Saturno y su gran tormenta",
+      "categoria": "Planetas",
+      "catalogo": "PIA14905",
+      "fuente": "Cassini · NASA/JPL-Caltech/SSI",
+      "descripcion": "Una enorme tormenta (la Gran Mancha Blanca) recorre la atmosfera del hemisferio norte de Saturno en esta vista en color real de la sonda Cassini.",
+      "archivo": "Saturn_Storm.jpg",
+      "credito": "NASA / JPL-Caltech / SSI",
+      "licencia": "Dominio publico (NASA)"
+    },
+    {
+      "id": 4,
+      "nombre": "Galaxia del Remolino (M51)",
+      "categoria": "Galaxias",
+      "catalogo": "M51 / NGC 5194",
+      "fuente": "Hubble · NASA/ESA",
+      "descripcion": "Galaxia espiral vista de frente junto a su pequena galaxia companera, retratada con la Camara Avanzada para Sondeos del Hubble.",
+      "archivo": "Whirlpool_Galaxy.jpg",
+      "credito": "NASA, ESA, S. Beckwith (STScI) y The Hubble Heritage Team",
+      "licencia": "Dominio publico / PD-Hubble"
+    },
+    {
+      "id": 5,
+      "nombre": "Galaxia del Sombrero (M104)",
+      "categoria": "Galaxias",
+      "catalogo": "M104 / NGC 4594",
+      "fuente": "Hubble · NASA/ESA",
+      "descripcion": "Mosaico del Hubble de la galaxia del Sombrero, cuyo disco de polvo visto de canto y su nucleo brillante le dan su forma caracteristica.",
+      "archivo": "M104_ngc4594_sombrero_galaxy_hi-res.jpg",
+      "credito": "NASA / ESA / The Hubble Heritage Team (STScI/AURA)",
+      "licencia": "Dominio publico / PD-Hubble"
+    },
+    {
+      "id": 6,
+      "nombre": "Galaxia de Andromeda (M31)",
+      "categoria": "Galaxias",
+      "catalogo": "M31 / NGC 224",
+      "fuente": "Hubble · NASA/ESA",
+      "descripcion": "La gran galaxia espiral vecina de la Via Lactea, rodeada por un enorme halo de gas detectado por el telescopio Hubble.",
+      "archivo": "Hubble_Finds_Giant_Halo_Around_the_Andromeda_Galaxy.jpg",
+      "credito": "NASA / ESA / STScI",
+      "licencia": "Dominio publico / PD-Hubble"
+    },
+    {
+      "id": 7,
+      "nombre": "Pilares de la Creacion",
+      "categoria": "Nebulosas",
+      "catalogo": "M16 / NGC 6611",
+      "fuente": "James Webb (NIRCam) · NASA/ESA/CSA/STScI",
+      "descripcion": "Columnas de gas y polvo donde nacen nuevas estrellas, en la Nebulosa del Aguila, captadas en infrarrojo cercano por el telescopio espacial James Webb.",
+      "archivo": "Pillars_of_Creation_(NIRCam_Image).jpg",
+      "credito": "NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI)",
+      "licencia": "Dominio publico / PD-Webb"
+    },
+    {
+      "id": 8,
+      "nombre": "Nebulosa de Orion",
+      "categoria": "Nebulosas",
+      "catalogo": "M42 / NGC 1976",
+      "fuente": "Hubble · NASA/ESA",
+      "descripcion": "Una de las regiones de formacion estelar mas cercanas a la Tierra, en un detallado mosaico del telescopio Hubble.",
+      "archivo": "Orion_Nebula_(Hubble_Space_Telescope).jpg",
+      "credito": "NASA / ESA / M. Robberto (STScI) y el equipo del Hubble Space Telescope Orion Treasury Project",
+      "licencia": "Dominio publico / PD-Hubble"
+    },
+    {
+      "id": 9,
+      "nombre": "Nebulosa de Carina",
+      "categoria": "Nebulosas",
+      "catalogo": "NGC 3372",
+      "fuente": "Hubble · NASA/ESA",
+      "descripcion": "Vasta region de formacion estelar en la constelacion de Carina, fotografiada en luz visible por el telescopio Hubble.",
+      "archivo": "Carina_Nebula_in_visible_light_(captured_by_the_Hubble_Space_Telescope).jpg",
+      "credito": "NASA / ESA / N. Smith (University of California, Berkeley) / Hubble Heritage Team",
+      "licencia": "Dominio publico / PD-Hubble"
+    },
+    {
+      "id": 10,
+      "nombre": "Buzz Aldrin en la Luna",
+      "categoria": "Misiones",
+      "catalogo": "AS11-40-5903",
+      "fuente": "Apollo 11 · NASA",
+      "descripcion": "El astronauta Buzz Aldrin sobre la superficie lunar en 1969; Neil Armstrong se refleja en el visor de su casco.",
+      "archivo": "Aldrin_Apollo_11_original.jpg",
+      "credito": "NASA / Neil Armstrong",
+      "licencia": "Dominio publico (NASA)"
+    },
+    {
+      "id": 11,
+      "nombre": "Despegue del Apollo 11",
+      "categoria": "Misiones",
+      "catalogo": "Saturn V · SA-506",
+      "fuente": "NASA · Centro Espacial Kennedy",
+      "descripcion": "El cohete Saturn V despega el 16 de julio de 1969 llevando a la primera mision tripulada que alunizaria.",
+      "archivo": "Apollo_11_launch.jpg",
+      "credito": "NASA",
+      "licencia": "Dominio publico (NASA)"
+    },
+    {
+      "id": 12,
+      "nombre": "Telescopio Espacial Hubble",
+      "categoria": "Misiones",
+      "catalogo": "HST · STS-82",
+      "fuente": "NASA · Transbordador Discovery",
+      "descripcion": "El Telescopio Espacial Hubble fotografiado desde el transbordador Discovery durante una mision de mantenimiento en 1997.",
+      "archivo": "Hubble_01.jpg",
+      "credito": "NASA",
+      "licencia": "Dominio publico (NASA)"
+    }
+  ],
+  "audio": [
+    {
+      "id": "a1",
+      "nombre": "Sonidos de Saturno",
+      "descripcion": "Emisiones de radio de Saturno registradas por la sonda Cassini y convertidas en sonido.",
+      "archivo": "Saturn_sound.ogg",
+      "credito": "NASA / JPL / University of Iowa",
+      "licencia": "Dominio publico (NASA)"
+    },
+    {
+      "id": "a2",
+      "nombre": "Coro de ondas de radio terrestres",
+      "descripcion": "Ondas de radio tipo coro en la atmosfera de la Tierra, convertidas en sonido por la NASA.",
+      "archivo": "Chorus_Radio_Waves_within_Earth's_Atmosphere.mp3",
+      "credito": "NASA",
+      "licencia": "Dominio publico (NASA)"
+    }
+  ]
+}
